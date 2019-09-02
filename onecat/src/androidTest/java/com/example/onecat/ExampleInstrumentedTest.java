@@ -1,9 +1,10 @@
-package com.example.onecate;
+package com.example.onecat;
 
 import android.content.Context;
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.runner.AndroidJUnit4;
+
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,6 +23,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.onecate", appContext.getPackageName());
+        assertEquals("com.example.onecat.test", appContext.getPackageName());
     }
 }
